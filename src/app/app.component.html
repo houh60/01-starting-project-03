@@ -2,6 +2,7 @@
 <main>
   <div id="dashboard">
     <app-dashboard-item
+      class="status"
       [image]="{ src: 'status.png', alt: 'A signal symbol' }"
       title="Server Status"
     >
@@ -9,6 +10,7 @@
     </app-dashboard-item>
 
     <app-dashboard-item
+      class="traffic"
       [image]="{ src: 'globe.png', alt: 'A globe' }"
       title="Traffic"
     >
@@ -16,6 +18,7 @@
     </app-dashboard-item>
 
     <app-dashboard-item
+      class="tickets"
       [image]="{ src: 'list.png', alt: 'A list of items' }"
       title="Support Tickets"
     >

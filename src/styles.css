@@ -24,11 +24,20 @@ main {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1.5rem;
-  max-width: 85rem;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
   #dashboard {
     flex-direction: row;
   }
+}
+
+.status,
+.tickets {
+  width: 30%;
+}
+
+.traffic {
+  width: 40%;
 }
